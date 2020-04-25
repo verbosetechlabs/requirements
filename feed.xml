@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://fongandrew.github.io/doc-requirements/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fongandrew.github.io/doc-requirements/" rel="alternate" type="text/html" /><updated>2020-04-25T23:48:11+05:30</updated><id>https://fongandrew.github.io/doc-requirements/feed.xml</id><title type="html">VT Labs</title><subtitle>Installation requirements and instructions</subtitle><author><name>Ujjwal Wahi</name></author><entry><title type="html">Requirements</title><link href="https://fongandrew.github.io/doc-requirements/2017/06/01/requirement.html" rel="alternate" type="text/html" title="Requirements" /><published>2017-06-01T00:00:00+05:30</published><updated>2017-06-01T00:00:00+05:30</updated><id>https://fongandrew.github.io/doc-requirements/2017/06/01/requirement</id><content type="html" xml:base="https://fongandrew.github.io/doc-requirements/2017/06/01/requirement.html">&lt;p&gt;Welcome to Verbose TechLabs LLP, we are looking forward to serve you. Before we can start working on your awesome project, there are few requirements that you need to fulfill. Here we have list down all the requirements and steps to follow to arrange them.
+Kindly go through all of them to speed up the installation process.&lt;/p&gt;
+
+&lt;h1 id=&quot;please-fill-the-below-form&quot;&gt;Please fill the below form:&lt;/h1&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/forms/d/e/1FAIpQLScKQHwtfVvQ1Wul06rxmdfZn-Zx32RlzjgfYndal37uVqEF3Q/viewform?embedded=true&quot; width=&quot;640&quot; height=&quot;2000&quot; frameborder=&quot;0&quot; marginheight=&quot;0&quot; marginwidth=&quot;0&quot;&gt;Loading…&lt;/iframe&gt;
+
+&lt;h1 id=&quot;in-depth&quot;&gt;In Depth&lt;/h1&gt;
+&lt;h2 id=&quot;application-details&quot;&gt;Application Details&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;App Name:&lt;/strong&gt; Name of your application, this name will be visible on Play Store, App Store and Admin Panel.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Logo Source File:&lt;/strong&gt; Source file of your logo for all apps. You can share source file in any of these formats: &lt;code class=&quot;highlighter-rouge&quot;&gt;.psd/.cdr/.ai&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Domain Name:&lt;/strong&gt; Where you want to host backend of your application.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;server&quot;&gt;Server&lt;/h2&gt;
+&lt;p&gt;You need to provide the webserver where we will host the backend of your application. To speed up the installation process and to recieve future updates in smoother way, it is suggested to provide AWS.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;AWS:&lt;/strong&gt; It comes with 12 month free trial. While your app in development and has low number of users, it is the best option to choose, &lt;a href=&quot;http://aws.amazon.com/&quot;&gt;see here&lt;/a&gt;. If you are providing us the existing instance of server, please make sure you give us the server with following specification:
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Ubuntu 18.04&lt;/code&gt; or greater&lt;/li&gt;
+      &lt;li&gt;User with &lt;code class=&quot;highlighter-rouge&quot;&gt;sudo&lt;/code&gt; access&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Mysql 5.7&lt;/code&gt; or greater&lt;/li&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Php 7.2&lt;/code&gt; or greater&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Also, we need to use &lt;code class=&quot;highlighter-rouge&quot;&gt;https&lt;/code&gt;  in order to comply with &lt;code class=&quot;highlighter-rouge&quot;&gt;Google Play Store&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Apple App Store&lt;/code&gt; latest policies. Following are the instructions for &lt;code class=&quot;highlighter-rouge&quot;&gt;https&lt;/code&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;You will to need to provide domain/subdomain name where you want to host Admin/backend of the application.&lt;/li&gt;
+  &lt;li&gt;You will to need add an ‘A record’ in your DNS with the IP Address provided by us.&lt;/li&gt;
+  &lt;li&gt;We will install SSL using ‘Let’s Encrypt’ on your server.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;mobile-application&quot;&gt;Mobile Application&lt;/h2&gt;
+&lt;h3 id=&quot;android&quot;&gt;Android&lt;/h3&gt;
+&lt;p&gt;You need to purchase developer account from Google which will cost you USD 25(One time payment). 
+After the purchase you need to share the Access to support@verbosetechlabs.com with &lt;code class=&quot;highlighter-rouge&quot;&gt;Owner&lt;/code&gt; permission&lt;/p&gt;
+
+&lt;h3 id=&quot;apple&quot;&gt;Apple&lt;/h3&gt;
+&lt;p&gt;You need to purchase developer account from Apple which will cost you $99 per year.
+After the purchase you need to share the credentials. Apple requires verification at the time of login, please be available for OTP verification.
+If you have business account, you can send an invite at support@verbosetechlabs.com from your Apple Account.&lt;/p&gt;
+
+&lt;h3 id=&quot;other-services&quot;&gt;Other Services&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Firebase Project:
+    &lt;ul&gt;
+      &lt;li&gt;Create a project in firebase.google.com and send us an invite at support@verbosetechlabs.com with &lt;code class=&quot;highlighter-rouge&quot;&gt;Owner&lt;/code&gt; permission.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Onesignal Project:
+    &lt;ul&gt;
+      &lt;li&gt;Create an account at (Onesignal)[https://onesignal.com] and share credentials with us.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Facebook App:
+    &lt;ul&gt;
+      &lt;li&gt;Create an App at (Facebook)[https://developer.facebook.com] and send us invite on http://facebook.com/ujjwal.wahi.31 .&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mailgun Account:
+    &lt;ul&gt;
+      &lt;li&gt;You need to create an account on mailgun.com and share it with enabled billing and email activated.&lt;/li&gt;
+      &lt;li&gt;Mailgun requires verification at the time of Login, please be available for OTP verfication.&lt;/li&gt;
+      &lt;li&gt;After we add your domain in mailgun, you will need to update your DNS records. We will send you the PDF file that will contain DNS records that you need to update.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Ujjwal Wahi</name></author><summary type="html">Welcome to Verbose TechLabs LLP, we are looking forward to serve you. Before we can start working on your awesome project, there are few requirements that you need to fulfill. Here we have list down all the requirements and steps to follow to arrange them. Kindly go through all of them to speed up the installation process. Please fill the below form: Loading… In Depth Application Details App Name: Name of your application, this name will be visible on Play Store, App Store and Admin Panel. Logo Source File: Source file of your logo for all apps. You can share source file in any of these formats: .psd/.cdr/.ai Domain Name: Where you want to host backend of your application. Server You need to provide the webserver where we will host the backend of your application. To speed up the installation process and to recieve future updates in smoother way, it is suggested to provide AWS. AWS: It comes with 12 month free trial. While your app in development and has low number of users, it is the best option to choose, see here. If you are providing us the existing instance of server, please make sure you give us the server with following specification: Ubuntu 18.04 or greater User with sudo access Mysql 5.7 or greater Php 7.2 or greater Also, we need to use https in order to comply with Google Play Store and Apple App Store latest policies. Following are the instructions for https: You will to need to provide domain/subdomain name where you want to host Admin/backend of the application. You will to need add an ‘A record’ in your DNS with the IP Address provided by us. We will install SSL using ‘Let’s Encrypt’ on your server. Mobile Application Android You need to purchase developer account from Google which will cost you USD 25(One time payment). After the purchase you need to share the Access to support@verbosetechlabs.com with Owner permission Apple You need to purchase developer account from Apple which will cost you $99 per year. After the purchase you need to share the credentials. Apple requires verification at the time of login, please be available for OTP verification. If you have business account, you can send an invite at support@verbosetechlabs.com from your Apple Account. Other Services Firebase Project: Create a project in firebase.google.com and send us an invite at support@verbosetechlabs.com with Owner permission. Onesignal Project: Create an account at (Onesignal)[https://onesignal.com] and share credentials with us. Facebook App: Create an App at (Facebook)[https://developer.facebook.com] and send us invite on http://facebook.com/ujjwal.wahi.31 . Mailgun Account: You need to create an account on mailgun.com and share it with enabled billing and email activated. Mailgun requires verification at the time of Login, please be available for OTP verfication. After we add your domain in mailgun, you will need to update your DNS records. We will send you the PDF file that will contain DNS records that you need to update.</summary></entry></feed>
